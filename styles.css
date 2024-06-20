@@ -1,0 +1,37 @@
+id, input {
+  margin: 10px;
+}
+
+label, input {
+  width: unset;
+  display: block;
+  margin-left: 0.5em
+}
+
+h1, p {
+  text-align: center;
+}
+
+body {
+  font-family: tahoma;
+  max-width: 500px;
+  min-width: 300px;
+  padding-left: 45px
+}
+
+.inline {
+  display: inline;
+}
+
+select {
+  margin-bottom: 20px;
+}
+
+textarea {
+  margin-top: 20px;
+}
+
+button {
+  display: block;
+  margin-top: 20px;
+}

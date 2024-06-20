@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Your time on this survey will help us improve!</p>
+  <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <form id="survey-form">
+      <fieldset>
+      <label id="name-label">Name</label><input id="name" type="text" placeholder="John Smith" class="inline" required></input>
+      <label id="email-label" >Email</label><input id="email" type="email" placeholder="johnsmith@gmail.com" class="inline " required></input>
+      <label id="number-label">Number</label><input id="number" min="1" max="100" placeholder="40" class="inline" type="number"></input>
+      </fieldset>
+      <fieldset>
+        <select id="dropdown">
+          <option>Select one</option>
+          <option>Dog</option>
+          <option>Cat</option>
+        </select>
+          <label><input type="radio" name="day-night" class="inline" value="2" >day</input>
+          </label>
+          <label><input type="radio" name="day-night" class="inline" value="2">night</input></label>
+        </fieldset>
+        <fieldset>
+          <label><input type="checkbox" value="1" class="inline">red</input></label>
+          <label><input type="checkbox" value="2" class="inline">yellow</input></label>
+          <label><input type="checkbox" value="3" class="inline">blue</input></label>
+        <textarea></textarea>
+        <button id="submit" type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
